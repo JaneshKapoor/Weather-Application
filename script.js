@@ -33,4 +33,22 @@ submit.addEventListener("click", (e) => {
     getWeather(city.value);
 })
 
+const Bangalore = document.getElementById("Bangalore");
+
+Delhi.addEventListener("click",(e) => {
+    e.preventDefault();
+    getWeather("Delhi");
+})
+
+Bangalore.addEventListener("click",(e) => {
+    e.preventDefault();
+    getWeather("Bangalore");
+})
+
+Mumbai.addEventListener("click",(e) => {
+    e.preventDefault();
+    getWeather("Mumbai");
+})
+
+
 getWeather("Delhi");
