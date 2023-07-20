@@ -38,3 +38,13 @@ nav{
 #cityname{
     color: #39FF14;
 }
+
+.table_container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    width: 6550px;
+}
